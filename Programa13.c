@@ -3,9 +3,10 @@ Problemas con Arreglos Ejercicio 13*/
 #include<stdio.h>
 int main()
 {
-  int num[1000], num2, i=0, suma=0;
+  int num2, i=0, suma=0;
   printf("¿Cuantos numeros quieres sumar? \n");
   scanf("%d", &num2);
+  int num[num2]
   while(i<num2)
   {
     printf("Ingrese un numero: ");
