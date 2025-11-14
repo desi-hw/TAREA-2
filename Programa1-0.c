@@ -1,5 +1,5 @@
 /*Huitrón Was-Szabo Elizabeth Desireé
-Problemas con Estructuras Repetitivas (FOR, WHILE) Ejercicio 10*/
+Problemas con Estructuras Repetitivas (FOR, WHILE) Ejercicio 11*/
 #include<stdio.h>
 int main()
 {
