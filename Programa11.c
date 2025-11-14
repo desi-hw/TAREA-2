@@ -9,6 +9,6 @@ int main()
     if(i % 2 == 0)
       suma = suma + i;
   }
-  printf("%d ", suma);
+  printf("La suma de los numeros pares entre el 10 y el 50 es: %d ", suma);
   return 0;
 }
