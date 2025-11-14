@@ -9,17 +9,17 @@ int main()
   int arreglo[num];
   for(i=0; i<num; i++)
   {
-    
+    printf("Ingrese un numero: ");
+    scanf("%d", &arreglo[i]);
     if(arreglo[i]>0)
-      printf("El numero es postivo \");
+      printf("El numero es postivo \n");
     else
     {
       if(arreglo[i]<0)
-        printf("El numero es negativo \");
+        printf("El numero es negativo \n");
       else
-        printf("El numero es nulo \"); 
+        printf("El numero es nulo \n"); 
     }
-    i++;
   }
   return 0;
 }
