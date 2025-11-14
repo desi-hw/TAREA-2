@@ -6,12 +6,12 @@ int main()
   int num2, i=0, suma=0;
   printf("¿Cuantos numeros quieres sumar? \n");
   scanf("%d", &num2);
-  int num[num2]
+  int arreglo[num2];
   while(i<num2)
   {
     printf("Ingrese un numero: ");
-    scanf("%d", &num[i]);
-    suma = suma + num[i];
+    scanf("%d", &arreglo[i]);
+    suma = suma + arreglo[i];
     i++;
   }
   printf("El resultado de la suma es: %d", suma);
